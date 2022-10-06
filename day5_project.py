@@ -27,7 +27,7 @@ for x in range(0,nr_numbers):
     print(random_number)
     eazy_pw += numbers[random_number]
 
-print(eazy_pw)
+print(f"Easy password is: {eazy_pw}")
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
@@ -51,4 +51,4 @@ password = ''
 for char in hard_pw:
     password += char
 
-print(password)
+print(f"Hard password is: {password}")
